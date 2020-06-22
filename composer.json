@@ -1,0 +1,17 @@
+{
+    "name": "vendor/hough",
+    "description": "code datastruct",
+    "authors": [
+        {
+            "name": "hough",
+            "email": "hough0205@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DataStruct\\LinkedList\\": "datastruct/linkedlist/",
+            "DataStruct\\BinaryTree\\": "datastruct/binarytree/"
+        }
+    }
+}
