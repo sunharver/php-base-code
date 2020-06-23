@@ -6,7 +6,7 @@ namespace DataStruct\LinkedList;
 class SingleLinkedListV2
 {
 
-    private $header;
+    public $header;
 
 //    /**
 //     * 构造方法初始化第一个节点
@@ -67,6 +67,7 @@ class SingleLinkedListV2
             echo "{$current->data} ";
             $current = $current->next;
         }
+        echo "\n";
     }
 
 }
