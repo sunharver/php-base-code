@@ -1,0 +1,19 @@
+{
+    "name": "sunharver/php-base-code",
+    "description": "code datastruct",
+    "authors": [
+        {
+            "name": "sunharver",
+            "email": "hough0205@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DataStruct\\LinkedList\\": "datastruct/linkedlist/",
+            "DataStruct\\BinaryTree\\": "datastruct/binarytree/",
+            "DataStruct\\Heap\\": "datastruct/heap/",
+            "Sort\\Heap\\": "sort/heap/"
+        }
+    }
+}

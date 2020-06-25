@@ -9,11 +9,6 @@
     ],
     "require": {},
     "autoload": {
-        "psr-4": {
-            "DataStruct\\LinkedList\\": "datastruct/linkedlist/",
-            "DataStruct\\BinaryTree\\": "datastruct/binarytree/",
-            "DataStruct\\Heap\\": "datastruct/heap/",
-            "Sort\\Heap\\": "sort/heap/"
-        }
+        "classmap": ["datastruct/"]
     }
 }
